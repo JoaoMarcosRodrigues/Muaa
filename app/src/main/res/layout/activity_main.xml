@@ -23,13 +23,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_titulo"
         android:layout_centerHorizontal="true"
+        android:visibility="invisible"
         android:layout_margin="80dp"/>
 
     <ImageButton
         android:id="@+id/btn_ouvir"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/botao_ouvir"
         android:layout_below="@+id/progress_bar"
         android:layout_centerHorizontal="true"/>
 
